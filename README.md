@@ -1,5 +1,4 @@
 # NXTChain Permissioning Smart Contracts
-## ⚠️ Project Archival Notice ⚠️
 
 ## Audit
 Version 1 of these contracts was audited by a third party. Read the report [here](https://hacken.io/audits/nxt-technologies-inc./)
