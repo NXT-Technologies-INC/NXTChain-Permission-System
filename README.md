@@ -1,28 +1,12 @@
-# Permissioning Smart Contracts
+# NXTChain Permissioning Smart Contracts
 ## ⚠️ Project Archival Notice ⚠️
 
-This repository is archived. 
-
-You can still use onchain permissioning with [Besu](https://besu.hyperledger.org/en/stable/Tutorials/Permissioning/Getting-Started-Onchain-Permissioning/) however we do not plan to further develop either the specific implementation of these contracts or the dapp that is contained in this repository. 
-
-Additionally, due to outdated dependencies, the below instructions to build and run the dapp may not work for new users.
-
 ## Audit
-Version 1 of these contracts was audited by a third party. Read the report [here](https://consensys.net/diligence/audits/2019/08/pegasys-permissioning/)
+Version 1 of these contracts was audited by a third party. Read the report [here](https://hacken.io/audits/nxt-technologies-inc./)
 
 ## License
 The contents of this repository are Apache 2.0 licensed.
 **Important:** The dependency chain for this Dapp includes [web3js](https://github.com/ethereum/web3.js/) which is LGPL licensed.
-
-## Using
-You probably got here from Besu.
-The [Besu documentation](https://besu.hyperledger.org/en/stable/Tutorials/Permissioning/Getting-Started-Onchain-Permissioning/)
-describes how to use the contracts for onchain permissioning with Besu.
-
-We recommend you use the latest released version of this project.
-
-## Development
-_Note: The build process for the Dapp is currently not supported on Windows. Please use the provided distribution available at the [projects release page](https://github.com/PegaSysEng/permissioning-smart-contracts/releases/latest) if on Windows._
 
 ### Initialize dependencies ###
 Run `yarn install` to initialize project dependencies. This step is only required when setting up the project
@@ -37,8 +21,6 @@ Linting is set up for contracts using `solium`, and for source files using `pret
 ### Permissioning Management Dapp
 
 The Dapp will facilitate managing permissioning rules and maintaining the list of admin accounts that can edit rules.
-
-Note: if you want to run against Besu, follow the Besu docs.
 
 ONLY use these instructions if you are doing development work on the Dapp itself, in which case connecting to a development server (Ganache) will enable faster development.
 
